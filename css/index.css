@@ -1,0 +1,145 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.top{
+    height: 15%;
+    width: 100%;
+    /*background: url("../image/logo.jpg")no-repeat;*/
+    /*background-color: red;*/
+    /*background-position: 10px center;*/
+    /*background-size:contain;*/
+    position: relative;
+}
+.top .top_left{
+    height:100%;
+    width: 30%;
+}
+.top .top_left .picture{
+    height: 50%;
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    /*transform: translate(-50%,-50%);*/
+}
+.top .top_right .title{
+    font-family: "华文行楷","楷体";
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ff613d;
+    font-size: 3vw;
+}
+
+.nav{
+    height: 8%;
+    width: 100%;
+}
+ul{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+li{
+    width: 16%;
+    height: 100%;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+li a{
+    display: inline-block;
+    width: 80%;
+    font-size: 1.2vw;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+    top: 30%;
+    margin-top: -10px;
+    color: #ff613d;
+    text-align: right;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    height: 50%;
+    background-color: #ff613d;
+}
+.content .box{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.content .content_left{
+    height: 100%;
+    width: 40%;
+    /*background-color: red;*/
+    float: left;
+}
+.content .content_left h2{
+    /*height: 40%;*/
+    width: 90%;
+    /*background-color: green;*/
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin-top: -89px;*/
+    /*margin-left: -346px;*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    /*transform: translateY(-50%);*/
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2vw;
+}
+.content .content_right{
+    /*background: url("../image/picture.jpg")no-repeat;*/
+    /*background-size:contain;*/
+    float: right;
+    height:100%;
+    width: 60%;
+    background-color: #ff613d;
+    /*background-color: pink;*/
+}
+.content .content_right img{
+    height:100%;
+    /*width: 80%;*/
+}
+.bottom{
+    height: 27%;
+    width: 100%;
+    position: relative;
+
+}
+.bottom .key{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    color: #ff613d;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.bottom .address{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    color: #ff613d;
+    font-weight: bold;
+    font-size: 1.2vw;
+}

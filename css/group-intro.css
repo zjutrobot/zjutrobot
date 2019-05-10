@@ -1,0 +1,193 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.top{
+    height: 15%;
+    width: 100%;
+    /*background: url("../image/logo.jpg")no-repeat;*/
+    /*background-color: red;*/
+    /*background-position: 10px center;*/
+    /*background-size:contain;*/
+    position: relative;
+}
+.top .top_left{
+    height:100%;
+    width: 30%;
+}
+.top .top_left .picture{
+    height: 50%;
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    /*transform: translate(-50%,-50%);*/
+}
+.top .top_right .title{
+    font-family: "华文行楷","楷体";
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ff613d;
+    font-size: 3vw;
+}
+
+.nav{
+    height: 8%;
+    width: 100%;
+}
+.nav ul{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.nav li{
+    width: 16%;
+    height: 100%;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.nav li a{
+    display: inline-block;
+    width: 80%;
+    font-size: 1.2vw;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+    top: 30%;
+    margin-top: -10px;
+    color: #ff613d;
+    font-weight: bold;
+    text-align: right;
+}
+.content{
+    width: 100%;
+    height: 65%;
+    /*background-color: #ff613d;*/
+}
+.content .member{
+    height: 10%;
+    width: 100%;
+    /*background-color: yellow;*/
+    position: relative;
+}
+.content .member .team{
+    font-size: 2vw;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    color: #ff613d;
+    font-weight: bold;
+}
+.content .group{
+    padding-top: 1%;
+    height: 90%;
+    width: 100%;
+    /*background-color: pink;*/
+}
+.content .group .group_top{
+    height: 50%;
+    width: 80%;
+    /*background-color: yellow;*/
+    margin: 0 auto;
+}
+.content .group .group_top ul{
+    height: 100%;
+    width: 100%;
+    /*background-color: skyblue;*/
+}
+.content .group .group_top ul li{
+    float: left;
+    list-style: none;
+}
+.content .group .group_top ul .group_top_picture_intro{
+    height: 100%;
+    width: 20%;
+    /*background-color: green;*/
+}
+.content .group .group_top ul .group_top_picture_intro .box{
+    height: 100%;
+    width: 60%;
+    /*background-color: yellow;*/
+    margin: 0 auto;
+}
+/*.content .group .group_top ul li .box a{*/
+    /*font-size: 1.1vw;*/
+    /*text-decoration: none;*/
+    /*color: #ff613d;*/
+    /*font-weight: bold;*/
+/*}*/
+.content .group .group_top ul .group_top_picture_intro .box .group_top_picture{
+    height: 75%;
+    width: 100%;
+    /*background-color: pink;*/
+
+}
+.content .group .group_top ul .group_top_picture_intro .box .group_top_picture img{
+    height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content .group .group_top ul .group_top_picture_intro .box .group_top_intro{
+    height: 25%;
+    width: 100%;
+    /*background-color: green;*/
+    position: relative;
+    left: 10%;
+    color: #ff613d;
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+.content .group .group_top ul .group_top_word_intro{
+    height: 100%;
+    width: 80%;
+    /*background-color: yellow;*/
+    list-style: none;
+}
+.content .group .group_top ul .group_top_word_intro p{
+    padding: 1% 2%;
+    font-size: 1vw;
+    color: #0070c0;
+    font-weight: bolder;
+}
+/*.content .group .group_bottom{*/
+    /*height: 50%;*/
+    /*width: 80%;*/
+    /*!*background-color: blue;*!*/
+    /*margin: 0 auto;*/
+/*}*/
+/*.content .group .group_bottom ul{*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*!*background-color: skyblue;*!*/
+/*}*/
+/*.content .group .group_bottom ul li{*/
+    /*height: 100%;*/
+    /*width: 20%;*/
+    /*float: left;*/
+    /*list-style: none;*/
+/*}*/
+/*.content .group .group_bottom ul li img{*/
+    /*height: 100%;*/
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%,-50%);*/
+/*}*/

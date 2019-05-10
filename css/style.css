@@ -1,0 +1,128 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+/*顶部*/
+.top{
+    height: 15%;
+    width: 100%;
+    position: relative;
+}
+.top .top_left{
+    height:100%;
+    width: 30%;
+}
+.top .top_left .picture{
+    height: 50%;
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.top .top_right .title{
+    font-family: "华文行楷","楷体";
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ff613d;
+    font-size: 3vw;
+}
+
+.nav{
+    height: 8%;
+    width: 100%;
+}
+.nav ul{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.nav li{
+    width: 16%;
+    height: 100%;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.nav li a{
+    display: inline-block;
+    width: 80%;
+    font-size: 1.2vw;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+    top: 30%;
+    margin-top: -10px;
+    color: #ff613d;
+    font-weight: bold;
+    text-align: right;
+}
+/*中间内容*/
+#body{
+    background-color: #fffefd;
+    height: 70%;
+}
+#center{
+    background-color: #fffefd;
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    /*position: relative;*/
+}
+#center h3{
+    margin: 0 0 2% 0;
+    font-size: 1.1vw;
+    font-family: 微软雅黑;
+    color: #fd623d;
+    font-weight: bold;
+}
+p{
+    font-size: 1vw;
+    font-family: 微软雅黑;
+    color: #0c7ac7;
+    font-weight: bold;
+}
+#center p a{
+    text-decoration: none;
+    color: #0c7ac7;
+}
+#center_top{
+    /*position: absolute;*/
+    height: 30%;
+    width: 100%;
+    background-color: #fffefd;
+}
+#center_top .text{
+    margin-left:3%;
+}
+#center_c .text{
+    margin-left: 3%;
+}
+#center_footer .text{
+    margin-left: 3%;
+}
+#center_c{
+    height: 30%;
+    width: 100%;
+    background-color: #fffefd;
+}
+#center_footer{
+    height: 30%;
+    width: 100%;
+    background-color: #fffefd;
+}
