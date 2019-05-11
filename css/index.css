@@ -93,7 +93,7 @@ li a{
 }
 .content .content_left h2{
     /*height: 40%;*/
-    width: 90%;
+    width: 80%;
     /*background-color: green;*/
     /*position: relative;*/
     /*top: 50%;*/
@@ -106,7 +106,7 @@ li a{
     /*transform: translateY(-50%);*/
     transform: translate(-50%,-50%);
     color: white;
-    font-size: 2vw;
+    font-size: 1.4vw;
 }
 .content .content_right{
     /*background: url("../image/picture.jpg")no-repeat;*/
@@ -133,13 +133,13 @@ li a{
     left: 10%;
     color: #ff613d;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 0.9vw;
 }
 .bottom .address{
     position: relative;
-    top: 40%;
+    top: 30%;
     left: 10%;
     color: #ff613d;
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 0.8vw;
 }
