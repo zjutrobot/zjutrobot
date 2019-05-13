@@ -6,9 +6,9 @@
 $ git init
 ```
 
-![会在文件夹里出现.git文件夹](C:\Users\远锋\AppData\Roaming\Typora\typora-user-images\1557728015280.png)
+![会在文件夹里出现.git文件夹](mdimg\1557728015280.png)
 
-![1557728051742](C:\Users\远锋\AppData\Roaming\Typora\typora-user-images\1557728051742.png)
+![1557728051742](mdimg\1557728051742.png)
 
 
 
@@ -36,7 +36,7 @@ $ git remote add origin git@github.com:zjutrobot/zjutrobot.git
 $ git push origin master
 ```
 
-![出现错误](C:\Users\远锋\AppData\Roaming\Typora\typora-user-images\1557728244287.png)
+![出现错误](mdimg\1557728244287.png)
 
 **出现错误的原因是你权限不够**
 
@@ -51,11 +51,11 @@ ssh-keygen -t rsa -C "your Email@email.com"
 2. 一直按回车+yes
 3.  会在用户目录文件夹里生成一个.ssh的公钥
 
-![1557728447749](C:\Users\远锋\AppData\Roaming\Typora\typora-user-images\1557728447749.png)
+![1557728447749](mdimg\1557728447749.png)
 
 
 
-![1557728465863](C:\Users\远锋\AppData\Roaming\Typora\typora-user-images\1557728465863.png)
+![1557728465863](mdimg\1557728465863.png)
 
 
 
@@ -69,9 +69,9 @@ ssh-keygen -t rsa -C "your Email@email.com"
 
 
 
-![1557728602302](C:\Users\远锋\AppData\Roaming\Typora\typora-user-images\1557728602302.png)
+![1557728602302](mdimg\1557728602302.png)
 
-![1557728677565](C:\Users\远锋\AppData\Roaming\Typora\typora-user-images\1557728677565.png)
+![1557728677565](mdimg\1557728677565.png)
 
 
 
@@ -85,5 +85,5 @@ ssh-keygen -t rsa -C "your Email@email.com"
 
 
 
-![1557728794546](C:\Users\远锋\AppData\Roaming\Typora\typora-user-images\1557728794546.png)
+![1557728794546](mdimg\1557728794546.png)
 
