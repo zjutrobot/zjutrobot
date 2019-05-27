@@ -71,7 +71,7 @@ body,html{
     font-weight: bold;
     text-align: right;
 }
-/*中间内容*/
+/*中间内容整体的内容格式*/
 #body{
     background-color: #fffefd;
     /*height: 70%;*/
@@ -85,8 +85,8 @@ body,html{
     /*position: relative;*/
 }
 #center h3{
-    margin: 0 0 2% 0;
-    font-size: 1.1vw;
+    margin: 3% 0 2% 0;/*3%代表各小模块的间距;*/
+    font-size: 1.3vw;
     font-family: 微软雅黑;
     color: #fd623d;
     font-weight: bold;
@@ -125,4 +125,17 @@ p{
     /*height: 30%;*/
     width: 100%;
     background-color: #fffefd;
+}
+
+.body .center .center_top work{
+    height: 100%;
+    width: 80%;
+    /*background-color: yellow;*/
+    list-style: none;
+}
+.body .center .center_top work p {
+    padding: 3% 2%;
+    font-size: 1vw;
+    color: #0070c0;
+    font-weight: bolder;
 }

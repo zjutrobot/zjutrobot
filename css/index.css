@@ -87,9 +87,10 @@ li a{
 }
 .content .content_left{
     height: 100%;
-    width: 40%;
+    width: 45%;
     /*background-color: red;*/
     float: left;
+
 }
 .content .content_left h2{
     /*height: 40%;*/
@@ -106,14 +107,14 @@ li a{
     /*transform: translateY(-50%);*/
     transform: translate(-50%,-50%);
     color: white;
-    font-size: 1.4vw;
+    font-size: 2vw;
 }
 .content .content_right{
     /*background: url("../image/picture.jpg")no-repeat;*/
     /*background-size:contain;*/
     float: right;
     height:100%;
-    width: 60%;
+    width: 55%;
     background-color: #ff613d;
     /*background-color: pink;*/
 }
@@ -127,18 +128,20 @@ li a{
     position: relative;
 
 }
+/*contact的内容格式设置*/
 .bottom .key{
     position: relative;
     top: 30%;
-    left: 10%;
+    left:0%;
     color: #ff613d;
     font-weight: bold;
     font-size: 0.9vw;
 }
+/*地址、邮件、电话的内容格式设置*/
 .bottom .address{
     position: relative;
     top: 30%;
-    left: 10%;
+    left: 0%;
     color: #ff613d;
     font-weight: bold;
     font-size: 0.8vw;
